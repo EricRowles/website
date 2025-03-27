@@ -1,0 +1,1 @@
+Test website using Rust and Nuxt.js
