@@ -1,6 +1,7 @@
 <template>
-  <div>
-    <site-header />
+  <UApp>
+    <SiteHeader />
     <NuxtPage />
-  </div>
+  </UApp>
 </template>
+

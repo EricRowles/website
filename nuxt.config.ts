@@ -1,11 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-import Aura from '@primeuix/themes/aura'
-
 export default defineNuxtConfig({
   modules: [
     '@nuxt/content',
     '@nuxt/eslint',
-    '@primevue/nuxt-module',
+    '@nuxt/ui',
   ],
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
@@ -15,11 +13,5 @@ export default defineNuxtConfig({
       stylistic: true,
     },
   },
-  primevue: {
-    options: {
-      theme: {
-        preset: Aura,
-      },
-    },
-  },
 })
+
